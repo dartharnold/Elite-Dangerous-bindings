@@ -583,14 +583,14 @@
 	<MuteButtonMode Value="mute_toggle" />
 	<CqcMuteButtonMode Value="mute_pushToTalk" />
 	<UseShieldCell>
-		<Primary Device="SaitekX56Throttle" Key="Joy_15" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="Keyboard" Key="Key_Q">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_RightShift" />
 		</Secondary>
 	</UseShieldCell>
 	<FireChaffLauncher>
-		<Primary Device="SaitekX56Throttle" Key="Joy_14" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="Keyboard" Key="Key_Q">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_RightAlt" />
@@ -1302,11 +1302,11 @@
 		<Secondary Device="Keyboard" Key="Key_Numpad_1" />
 	</OrderDefensiveBehaviour>
 	<OrderAggressiveBehaviour>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX56Throttle" Key="Joy_15" />
 		<Secondary Device="Keyboard" Key="Key_Numpad_2" />
 	</OrderAggressiveBehaviour>
 	<OrderFocusTarget>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="SaitekX56Throttle" Key="Joy_14" />
 		<Secondary Device="Keyboard" Key="Key_Numpad_3" />
 	</OrderFocusTarget>
 	<OrderHoldFire>
