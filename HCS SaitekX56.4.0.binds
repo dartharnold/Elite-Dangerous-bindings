@@ -1339,6 +1339,10 @@
 			<Modifier Device="Keyboard" Key="Key_RightShift" />
 		</Secondary>
 	</PhotoCameraToggle_Buggy>
+	<PhotoCameraToggle_Humanoid>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</PhotoCameraToggle_Humanoid>
 	<VanityCameraScrollLeft>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="Keyboard" Key="Key_Numpad_7">
@@ -1564,32 +1568,6 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FStopInc>
-	<StoreEnableRotation>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="Mouse" Key="Mouse_3" />
-	</StoreEnableRotation>
-	<StorePitchCamera>
-		<Binding Device="SaitekX56Joystick" Key="Joy_YAxis" />
-		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
-	</StorePitchCamera>
-	<StoreYawCamera>
-		<Binding Device="SaitekX56Joystick" Key="Joy_XAxis" />
-		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
-	</StoreYawCamera>
-	<StoreCamZoomIn>
-		<Primary Device="SaitekX56Joystick" Key="Joy_7" />
-		<Secondary Device="Keyboard" Key="Key_X" />
-	</StoreCamZoomIn>
-	<StoreCamZoomOut>
-		<Primary Device="SaitekX56Joystick" Key="Joy_9" />
-		<Secondary Device="Keyboard" Key="Key_Z" />
-	</StoreCamZoomOut>
-	<StoreToggle>
-		<Primary Device="SaitekX56Joystick" Key="Joy_6" />
-		<Secondary Device="Keyboard" Key="Key_Tab" />
-	</StoreToggle>
 	<CommanderCreator_Undo>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="Keyboard" Key="Key_Z" />
@@ -1731,7 +1709,7 @@
 			<Modifier Device="Keyboard" Key="Key_RightShift" />
 		</Secondary>
 	</ExplorationSAAExitThirdPerson>
-		<ExplorationSAANextGenus>
+	<ExplorationSAANextGenus>
 		<Primary Device="Keyboard" Key="Key_E" />
 		<Secondary Device="045E0B00" Key="GamePad_RBumper" />
 	</ExplorationSAANextGenus>
@@ -1845,6 +1823,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</HumanoidSprintButton>
+	<HumanoidWalkButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+		<ToggleOn Value="0" />
+	</HumanoidWalkButton>
 	<HumanoidCrouchButton>
 		<Primary Device="045E0B00" Key="GamePad_FaceRight" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -2015,25 +1998,25 @@
 		<Secondary Device="Mouse" Key="Mouse_3" />
 	</StoreEnableRotation>
 	<StorePitchCamera>
-		<Binding Device="045E0B00" Key="GamePad_RStickY" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_YAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</StorePitchCamera>
 	<StoreYawCamera>
-		<Binding Device="045E0B00" Key="GamePad_RStickX" />
+		<Binding Device="SaitekX56Joystick" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</StoreYawCamera>
 	<StoreCamZoomIn>
-		<Primary Device="045E0B00" Key="Pos_GamePad_RTrigger" />
+		<Primary Device="SaitekX56Joystick" Key="Joy_7" />
 		<Secondary Device="Keyboard" Key="Key_X" />
 	</StoreCamZoomIn>
 	<StoreCamZoomOut>
-		<Primary Device="045E0B00" Key="Pos_GamePad_LTrigger" />
+		<Primary Device="SaitekX56Joystick" Key="Joy_9" />
 		<Secondary Device="Keyboard" Key="Key_Z" />
 	</StoreCamZoomOut>
 	<StoreToggle>
-		<Primary Device="045E0B00" Key="GamePad_FaceLeft" />
+		<Primary Device="SaitekX56Joystick" Key="Joy_6" />
 		<Secondary Device="Keyboard" Key="Key_Tab" />
 	</StoreToggle>
 </Root>
